@@ -42,18 +42,17 @@ LLMs are capable of meta-reasoning: they can evaluate and improve on their own o
 - OpenAI API (or other LLM backend)
 
 ## 🖥️ Running Locally
-```bash
 pip install -r requirements.txt
 streamlit run main.py
 
-📂 Project Structure
+## 📂 Project Structure
 main.py               # Streamlit GUI
 iterative_runner.py  # Loop controller
 agents/               # Critic, optimizer, scorer agents
 prompts/              # Prompt templates
 core/llm.py           # Model interaction logic
 
-📎 Related Projects
+## 📎 Related Projects
 arg_r: The original CLI version of the argument refinement loop
 
 © 2025 Noam Slonim
